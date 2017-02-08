@@ -1,0 +1,20 @@
+@import "_variables";
+
+.article-poster {
+    float: left;
+    width: 25%;
+    margin-right: 1.5rem;
+}
+
+.article-title {
+  h2 {
+    font-size: 1.2em;
+    color: $color_medium;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: $color_large;
+  }
+}

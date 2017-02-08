@@ -1,0 +1,55 @@
+@import "_mixins", "_variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 20px;
+  line-height: 1.35;
+  font-family: $ff_text;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+;
+  font-family: $ff_text;
+  // font-weight: 700;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+article {
+  width: 75%;
+  margin: 1rem auto 3rem;
+
+    header {
+      @include clearfix;
+    }
+}
+
+.home {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

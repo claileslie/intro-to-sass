@@ -1,0 +1,34 @@
+@import "_mixins", "_variables";
+
+.hero-block {
+  position: relative;
+  @include clearfix;
+}
+
+.hero-logo-container {
+  float: left;
+  width: 25%;
+  padding: 1rem;
+
+  .hero-logo {
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+}
+
+.hero-title-container {
+  float: left;
+  width: 75%;
+
+  .hero-title {
+    font-size: 3rem;
+    margin: 2rem 0 0;
+    color: $color_large;
+  }
+
+  .hero-tagline {
+    color: $color_medium;
+    margin: 0.25rem 0;
+  }
+}
